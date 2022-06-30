@@ -10,3 +10,7 @@ my_dict = {
 print(my_dict["foo"])
 print(my_dict["foo"]["b"])
 my_list.append(44)
+print(my_dict["foo"]["b"])
+my_set = my_dict["bar"]["d"]
+print(my_set)
+my_set.add(9)
