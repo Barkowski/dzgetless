@@ -7,3 +7,6 @@ my_dict = {
            "d":{5, 6, 7, 8}},
     "moo":{"e":12,
            "f":{"Lol":["L", "o", "l"]}},}
+print(my_dict["foo"])
+print(my_dict["foo"]["b"])
+my_list.append(44)
