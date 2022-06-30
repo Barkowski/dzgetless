@@ -14,3 +14,10 @@ print(my_dict["foo"]["b"])
 my_set = my_dict["bar"]["d"]
 print(my_set)
 my_set.add(9)
+print(my_set)
+my_dict["moo"]["f"]["Lol"].remove("o")
+print(my_dict)
+my_dict["moo"]["f"]["K"] = ["K", "e", "k"]
+print(my_dict)
+my_dict.clear()
+print(my_dict)
